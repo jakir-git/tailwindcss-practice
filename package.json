@@ -1,0 +1,18 @@
+{
+  "name": "tailwind-css-latest",
+  "version": "1.0.0",
+  "description": "Tailwind CSS Practice",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css -w"
+  },
+  "keywords": [],
+  "author": "Md. Jakir Hosen",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "tailwindcss-plugin-icons": "^2.2.0"
+  }
+}
